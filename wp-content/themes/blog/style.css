@@ -1093,7 +1093,7 @@ object {
 	float: left;
 }
 .right {
-	margin-top: 30px;
+	margin-top: 35px;
 	float: right;
 }
 footer .right {
@@ -1120,8 +1120,8 @@ footer {margin-bottom: 25px}
 
 div .pagination {
 	display: block;
-	margin-left: 200px;
-	margin-right: 200px;
+	margin-left: 150px;
+	margin-right: 150px;
 	color: #111;
 }
 div .pagination .nav-links span {
