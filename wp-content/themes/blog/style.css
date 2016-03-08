@@ -718,7 +718,7 @@ header .main-navigation a:hover{
 }
 
 footer .main-navigation a{
-	margin-top: 15px;
+	margin-top: 23px;
 	color: #555;
 	font-size: 14px;
 	font-weight: 600;
@@ -1093,7 +1093,7 @@ object {
 	float: left;
 }
 .right {
-	margin-top: 35px;
+	margin-top: 30px;
 	float: right;
 }
 footer .right {
@@ -1106,8 +1106,10 @@ footer .right a {
 	display: inline-block;
 	padding: 0px;
 }
-footer div .center ul a{
-	margin-left: 35px;
+footer div .center ul.block{
+	position: relative;
+	left: 100px;
+	top: -12px;
 }
 footer {margin-bottom: 25px}
 
@@ -1119,12 +1121,14 @@ footer {margin-bottom: 25px}
 }
 
 div .pagination {
-	display: block;
-	margin-left: 150px;
-	margin-right: 150px;
+	position: relative;
+	left: 420px;
+}
+
+div .pagination .nav-links span {
 	color: #111;
 }
-div .pagination .nav-links span {
 
-	color: #111;
+i.fa-home{
+	margin-top: 4px;
 }

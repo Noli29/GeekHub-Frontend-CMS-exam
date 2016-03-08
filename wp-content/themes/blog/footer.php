@@ -20,7 +20,7 @@
 					<?php wp_nav_menu( array( 'theme_location' => 'footer', 'menu_id' => 'footer-menu' ) ); ?>
 
 						<div class="center">
-							<ul>
+							<ul class="block">
 								<li><a href="#"><img src="/wp-content/themes/blog/images/twitter.png"></a>
 								</li>
 								<li><a href="#"><img src="/wp-content/themes/blog/images/facebook.png"></a>
