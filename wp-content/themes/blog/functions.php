@@ -197,7 +197,7 @@ function mytheme_customize_register( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'social_links_twitter', array(
-	'label'        => __( 'Instagram', 'mytheme' ),
+	'label'        => __( 'Twitter', 'mytheme' ),
 	'section'    => 'lucidlms_geekhub_social_links',
 	'settings'   => 'social_links_twitter',
 	) ) );
@@ -231,7 +231,7 @@ function mytheme_customize_register( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'social_links_google_plus', array(
-	'label'        => __( 'Pinterest', 'mytheme' ),
+	'label'        => __( 'Google Plus', 'mytheme' ),
 	'section'    => 'lucidlms_geekhub_social_links',
 	'settings'   => 'social_links_google_plus',
 	) ) );
