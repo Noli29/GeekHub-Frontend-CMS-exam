@@ -33,7 +33,7 @@
 							<li><a href="<?php echo get_theme_mod('social_links_pinterest'); ?>">
 								<span class="fa fa-pinterest"></span></a>
 							</li>
-							<li><a href="<?php echo get_theme_mod('social_links_google_plus'); ?>">								<span class="fa-google"></span></a> 
+							<li><a href="<?php echo get_theme_mod('social_links_google_plus'); ?>">								<span class="fa fa-google"></span></a> 
 							</li>
 						</ul>
 					</div>

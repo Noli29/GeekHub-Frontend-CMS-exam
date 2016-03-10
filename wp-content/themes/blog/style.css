@@ -1100,6 +1100,7 @@ object {
 }
 footer .right {
 	margin: 0px;
+	margin-top: 3px;
 	padding: 0px;
 }
 
@@ -1108,22 +1109,19 @@ footer .right a {
 	display: inline-block;
 	padding: 0px;
 }
-footer div.center{
-	
-}
-footer div.center ul{
-	margin-top: 5px;
-}
-footer div .center li{
-	width: 5%;
-	padding: 0 8px;
-	border-radius: 50px;
-	background: black;
+
+footer div .center  li:first-child{
+	margin-left: 110px;
 }
 
 footer span.fa{
+	padding: 6px 5px;
+	width: 35px;
+	height: 35px;
+	border-radius: 50px;
+	background: black;
 	color: white;
-	font-size: 25px;
+	font-size: 20px;
 	text-align: center;
 }
 footer {margin-bottom: 25px}
@@ -1140,9 +1138,7 @@ div .pagination .nav-links span {
 	color: #111;
 }
 
-i.fa-home{
-	margin-top: 4px;
-}
+
 
 
 div.category {
