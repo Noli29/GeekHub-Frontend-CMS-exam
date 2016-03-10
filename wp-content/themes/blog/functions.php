@@ -165,3 +165,76 @@ function classic_pagination(){
 	) );
 	echo $pagination;
 }
+
+
+function mytheme_customize_register( $wp_customize ) {
+    //Facebook
+	$wp_customize->add_setting( 'social_links_facebook' , array(
+    'default'     => '',
+    'transport'   => 'refresh',
+	) );
+
+	$wp_customize->add_section( 'lucidlms_geekhub_social_links' , array(
+    'title'      => __( 'Social links by Geekhub', 'lucidlms-child' ),
+    'priority'   => 30,
+	) );
+
+	$wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'social_links_facebook', array(
+	'label'        => __( 'Facebook', 'mytheme' ),
+	'section'    => 'lucidlms_geekhub_social_links',
+	'settings'   => 'social_links_facebook',
+	) ) );
+
+	//Twitter
+	$wp_customize->add_setting( 'social_links_twitter' , array(
+    'default'     => '',
+    'transport'   => 'refresh',
+	) );
+
+	$wp_customize->add_section( 'lucidlms_geekhub_social_links' , array(
+    'title'      => __( 'Social links by Geekhub', 'lucidlms-child' ),
+    'priority'   => 30,
+	) );
+
+	$wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'social_links_twitter', array(
+	'label'        => __( 'Instagram', 'mytheme' ),
+	'section'    => 'lucidlms_geekhub_social_links',
+	'settings'   => 'social_links_twitter',
+	) ) );
+
+	//Pinterest
+	$wp_customize->add_setting( 'social_links_pinterest' , array(
+    'default'     => '',
+    'transport'   => 'refresh',
+	) );
+
+	$wp_customize->add_section( 'lucidlms_geekhub_social_links' , array(
+    'title'      => __( 'Social links by Geekhub', 'lucidlms-child' ),
+    'priority'   => 30,
+	) );
+
+	$wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'social_links_pinterest', array(
+	'label'        => __( 'Pinterest', 'mytheme' ),
+	'section'    => 'lucidlms_geekhub_social_links',
+	'settings'   => 'social_links_pinterest',
+	) ) );
+
+	//Google Plus
+	$wp_customize->add_setting( 'social_links_google_plus' , array(
+    'default'     => '',
+    'transport'   => 'refresh',
+	) );
+
+	$wp_customize->add_section( 'lucidlms_geekhub_social_links' , array(
+    'title'      => __( 'Social links by Geekhub', 'lucidlms-child' ),
+    'priority'   => 30,
+	) );
+
+	$wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'social_links_google_plus', array(
+	'label'        => __( 'Pinterest', 'mytheme' ),
+	'section'    => 'lucidlms_geekhub_social_links',
+	'settings'   => 'social_links_google_plus',
+	) ) );
+
+}
+add_action( 'customize_register', 'mytheme_customize_register' );

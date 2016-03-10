@@ -1108,10 +1108,23 @@ footer .right a {
 	display: inline-block;
 	padding: 0px;
 }
-footer div .center ul.block{
-	position: relative;
-	left: 100px;
-	top: -12px;
+footer div.center{
+	
+}
+footer div.center ul{
+	margin-top: 5px;
+}
+footer div .center li{
+	width: 5%;
+	padding: 0 8px;
+	border-radius: 50px;
+	background: black;
+}
+
+footer span.fa{
+	color: white;
+	font-size: 25px;
+	text-align: center;
 }
 footer {margin-bottom: 25px}
 

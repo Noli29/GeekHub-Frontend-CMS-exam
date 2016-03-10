@@ -19,17 +19,25 @@
 				<nav id="site-navigation" class="main-navigation" role="navigation">
 					<?php wp_nav_menu( array( 'theme_location' => 'footer', 'menu_id' => 'footer-menu' ) ); ?>
 
-						<div class="center">
-							<ul class="block">
-								<li><a href="#"><img src="/wp-content/themes/blog/images/twitter.png"></a>
-								</li>
-								<li><a href="#"><img src="/wp-content/themes/blog/images/facebook.png"></a>
-								</li>
-								<li><a href="#"><img src="/wp-content/themes/blog/images/pin.png"></a>
-								</li>
-								<li><a href="#"><img src="/wp-content/themes/blog/images/google.png"></a></li>
-							</ul>
-						</div>
+
+					<div class="center">
+						<ul class="block">
+							<li><a href="<?php echo get_theme_mod('social_links_facebook'); ?>">
+								<span class="fa fa-facebook"></span>
+							</a>
+							</li>
+							<li><a href="<?php echo get_theme_mod('social_links_twitter'); ?>">
+								<span class="fa fa-twitter"></span>
+								</a>
+							</li>
+							<li><a href="<?php echo get_theme_mod('social_links_pinterest'); ?>">
+								<span class="fa fa-pinterest"></span></a>
+							</li>
+							<li><a href="<?php echo get_theme_mod('social_links_google_plus'); ?>">								<span class="fa-google"></span></a> 
+							</li>
+						</ul>
+					</div>
+
 					<p  class="right">&copy; <?php echo date('Y')." "; ?>Copyright<a href="http://designerFirst.com">DesignerFirst.com</a></p>
 				</nav>
 
